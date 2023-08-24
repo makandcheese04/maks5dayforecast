@@ -77,7 +77,7 @@ cities.push(city);
 
 
 function getResponseWeather(cityName){
-    var quereyURL = "https://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={API key}" + cityName + "&appid=" + key;
+    var quereyURL = "https://api.openweathermap.org/data/2.5/uvi?appid=" + cityName + "&appid=" + key;
 
     $("#today-weather").empty();
     $.ajax({
