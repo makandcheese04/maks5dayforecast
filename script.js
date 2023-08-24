@@ -70,7 +70,7 @@ $("#add-city").on("click", function(event) {
 
    
 cities.push(city);
-    // Store updated cities in localStorage, re-render the list
+    
   storeCities();
   renderCities();
   });
@@ -206,7 +206,7 @@ $.ajax({
     
   }
 
-  //Click function to each Li 
+  
   $(document).on("click", "#listC", function() {
     var thisCity = $(this).attr("data-city");
     getResponseWeather(thisCity);
