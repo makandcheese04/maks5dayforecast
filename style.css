@@ -1,21 +1,79 @@
-ion-icon {
-    color:whitesmoke;
-    --ionicon-stroke-width: 80px;
-  }
-
-.green{
-  background-color: green;
-}
-.yellow{
-  background-color: yellow;
-}
-.orange{
-  background-color: orange;
-}
-.red{
-  background-color: red;
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.purple{
-  background-color: purple;
+h1 {
+  text-align: center;
+  color: #333;
 }
+
+#search-container {
+  text-align: center;
+  margin: 20px;
+}
+
+#city-input {
+  padding: 8px;
+  font-size: 16px;
+}
+
+#search-button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#current-weather {
+  text-align: center;
+  margin: 20px;
+}
+
+#city-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#date {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+#weather-icon {
+  margin: 10px;
+}
+
+#temperature,
+#humidity,
+#wind-speed {
+  margin: 10px;
+}
+
+#forecast {
+  text-align: center;
+  margin: 20px;
+}
+
+#forecast-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.forecast-card {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin: 5px;
+}
+
+
+
+
+
+
+
+
